@@ -1,0 +1,129 @@
+a {
+  text-decoration-line: none ;
+}
+
+/* a:hover {
+  color: grey;
+} */
+
+body {
+  margin: 0;
+}
+
+/****************HOMEPAGE************************/
+#homepage {
+  color: #f8f1f1;
+
+  background-color: black;
+  /* background-image: url("../images/starry-background-juan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.homepage-img {
+  position: absolute;
+
+  top: 0;
+  width: 100%;
+}
+
+.homepage-container {
+  text-align: center;
+  margin: 5% 10%;
+
+  position: relative;
+}
+
+.homepage-intro {
+  font-family: 'Manrope', sans-serif ;
+  font-weight: bold;
+  font-size: 5rem;
+
+  position: relative ;
+  top: 200px ;
+
+}
+
+/* Welcome Messages */
+.welcome-text {
+  font-size: 3rem ;
+  font-weight: lighter ;
+
+  opacity: 0.5 ;
+}
+
+.welcome-en {
+  font-family: 'Manrope', sans-serif;
+
+  position: absolute;
+  top: 20px;
+  left: 2%;
+}
+
+.welcome-jp {
+  font-family: 'Nanum-Gothic', sans-serif;
+
+  position: absolute;
+  top: 280px;
+  right: 2%;
+}
+
+.welcome-kr {
+  font-family: 'Sawarabi-Gothic', sans-serif;
+
+  position: absolute;
+  top: 380px;
+  left: 2%;
+}
+
+
+/* buttons */
+.aboutme {
+  position: relative ;
+  top: 200px ;
+}
+
+.aboutme-txt {
+  font-family: 'Manrope', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+
+  margin: 10px 0;
+}
+
+.homepage-buttons {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0px 10px;
+
+  width: 120px;
+
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.button-link {
+  color: black;
+}
+
+.credit {
+  color: white;
+
+  position: absolute;
+  text-align: center;
+  left: 0 ;
+  right: 0 ;
+  bottom: 0 ;
+  margin: auto;
+}
+
+
+
+/***************PROFESSIONAL PAGE**************/
+
+
+
+/**************PERSONAL PAGE********************/
