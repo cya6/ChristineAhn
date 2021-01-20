@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-/****************HOMEPAGE************************/
+/*********************HOMEPAGE*************************************************/
 #homepage {
   color: #f8f1f1;
   background-color: black;
@@ -122,11 +122,19 @@ body {
 
 
 
-/***************PROFESSIONAL PAGE**************/
+/********************PROFESSIONAL PAGE*****************************************/
+hr {
+  color: lightblue;
+}
+
 .title {
   font-size: 3rem ;
   text-align: center;
   padding: 2% 0;
+}
+
+.section-img{
+  width: 200px;
 }
 
 /* About Me */
@@ -142,14 +150,9 @@ body {
 /* Skills */
 #skills {
   text-align: center ;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 
   padding: 5% 13%;
-}
-
-.bookshelf-img {
-  display: inline-block;
-  width: 200px;
 }
 
 .skills-entry {
@@ -173,8 +176,11 @@ body {
 
 /* Projects */
 #projects {
-  background-color: pink;
+  text-align: center;
+  /* background-color: pink; */
+
+  padding: 5% 0 ;
 }
 
 
-/**************PERSONAL PAGE********************/
+/********************PERSONAL PAGE*********************/
