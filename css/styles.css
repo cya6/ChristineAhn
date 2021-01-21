@@ -137,6 +137,9 @@ hr {
   width: 200px;
 }
 
+.navbar {
+  position: fixed;
+}
 /* About Me */
 #aboutme-professional {
   text-align: center;
@@ -176,11 +179,13 @@ hr {
 
 /* Projects */
 #projects {
-  text-align: center;
+  text-align: left;
   /* background-color: pink; */
 
   padding: 5% 0 ;
 }
 
-
+#projects .btn {
+  margin-top: 10px;
+}
 /********************PERSONAL PAGE*********************/
