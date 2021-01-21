@@ -140,11 +140,15 @@ hr {
 
 .navbar {
   position: fixed;
+  background-color: white;
+  width: 100%;
+
+  z-index: 1;
 }
 /* About Me */
 #aboutme-professional {
   text-align: center;
-  padding: 5%;
+  padding: 7% 0 5%;
 }
 
 .christine-pic {
@@ -156,12 +160,12 @@ hr {
   text-align: center ;
   /* background-color: lightblue; */
 
-  padding: 5% 13%;
+  padding: 3% 13%;
 }
 
 .skills-entry {
   text-align: left;
-  margin: 20px 0 ;
+  margin: 50px 0;
 }
 
 .skills-img {
@@ -183,10 +187,11 @@ hr {
   text-align: center;
   /* background-color: pink; */
 
-  padding: 5% 0 ;
+  padding: 3% 0 ;
 }
 
 #projects .btn {
   margin-top: 10px;
 }
+
 /********************PERSONAL PAGE*********************/
